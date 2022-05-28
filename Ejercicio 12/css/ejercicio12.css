@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    border-color: rgb(34, 176, 219);
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 5px #999;
+}
+
+th, td {
+    border-style: solid;
+    border-color: rgb(34, 176, 219);
+    padding: 4px;
+}
+
+.column1 {
+    border-style: solid;
+    background-color: darkslategray;
+    color:rgb(215, 245, 195);
+
+}
+
+
+
+.column2, .column3 {
+    border-style: solid;
+    background-color:rgb(169, 221, 169);
+    border-width: 1px;
+}
+
+.column4 {
+    background-color: rgb(122, 212, 167);
+}
+
