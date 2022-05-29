@@ -1,0 +1,165 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    margin: 10px;
+    
+
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    margin: 50px;
+    text-align: center;
+}
+.pack {
+    float: left;
+    border-style: solid;
+}
+
+#a {
+    background-image: url(../img/mantel.jpg);
+
+}
+
+
+#e {
+    background-image: url(../img/face.jpg);
+    
+}
+
+#b {
+    
+    border-style: solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.lletraB {
+    position: absolute;
+    top: 25px;
+}
+
+#imgB {
+    background-image: url(../img/mantel.jpg);
+    width: 70%;
+    height: 70%;
+}
+
+#f {
+    position: relative;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lletraF {
+    position: absolute;
+    top: 5%;
+    font-weight: bold;
+}
+
+#imgF {
+    background-image: url(../img/face.jpg);
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+}
+
+#c {
+    background-image: url(../img/mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+.lletraC {
+    top: 10px;
+}
+
+#imgG {
+    background-image: url(../img/face2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 160%;
+    height: 50%;
+}
+
+#g {
+    position: relative;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center; /*Alinea la lletra*/
+    align-items: center;    /*Alinea la img*/
+}
+
+.lletraG {
+    position: absolute;
+    top: 5%;
+ 
+}
+
+#imgD {
+    background-image: url(../img/mantel.jpg);
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+
+}
+
+.lletraD {
+    position: absolute;
+    top: 5%;
+}
+
+#d {
+    position: relative;
+    background-color:  rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#imgH {
+
+    background-image: url(../img/face3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 100%;
+}
+
+.lletraH {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+#h {
+    position: relative;
+    background-color: rgb(241, 238, 238);
+
+}
+
+#i {
+    background: linear-gradient(90deg, rgb(68, 94, 9)40%, rgb(85, 169, 16));
+}
+
+#j {
+    background: linear-gradient(180deg, rgb(213, 112, 112)40%, rgb(135, 50, 23) 70%, rgb(148, 39, 7)80%, rgb(185, 105, 81)90%);
+}
+
+#k {
+    background: linear-gradient(180deg, rgb(150, 178, 147)30%, rgb(82, 113, 56)70%);
+}
+
+#l {
+    background: radial-gradient(ellipse at top, #32a81400, transparent),
+        radial-gradient(ellipse at bottom, #79c53c, transparent);
+}
+
