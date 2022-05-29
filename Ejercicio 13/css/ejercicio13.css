@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse;
+    border-color: rgb(34, 176, 219);
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 5px #999; /*Sombra tabla*/
+    min-width: 900px; /*ancho tabla*/
+    height: 100px;
+    font-weight: bolder; /*negrita*/
+    margin: auto;
+    
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  th, td {
+    border-style: solid;
+    border-color: #999;
+   
+}
+
+.celda1{
+  text-align: center;
+  background-color: rgb(35, 196, 67);
+  
+}
+
+.celda2{
+  text-align: left;
+  background-color: aqua;
+ 
+}
+
+.celda4{
+  text-align: center;
+
+}
+.celda6{
+  background-color: deeppink;
+  text-align:right;
+  
+  
+}
+
+.celda3, .celda5, .celda8 {
+  color: red;
+  text-align: center;
+  
+}
+
+.celda7{
+  text-align: center;
+}
+
