@@ -1,0 +1,25 @@
+body{
+    background-image: url(../img/ocean-photography-awards-12.jpg);
+    background-repeat: no-repeat; /*para que no se repita la foto*/
+    background-size: 1000px;
+    padding: 350px;
+    background-position: center;
+    min-width: 900px; 
+}
+
+table {
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: rgb(50, 74, 81);
+    width: 500px;
+    height: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    
+
+}
+
+
+.celda {
+    background-color: yellow;
+}
