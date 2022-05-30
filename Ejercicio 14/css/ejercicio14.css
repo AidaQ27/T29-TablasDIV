@@ -2,20 +2,26 @@ body{
     background-image: url(../img/ocean-photography-awards-12.jpg);
     background-repeat: no-repeat; /*para que no se repita la foto*/
     background-size: 1000px;
-    padding: 350px;
     background-position: center;
-    min-width: 900px; 
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+   
 }
 
 table {
+    position: absolute;
     border-style: solid;
     border-collapse: collapse;
     border-color: rgb(50, 74, 81);
-    width: 500px;
-    height: 20px;
+    width: 800px;
+    height: 40px;
+    top: 50%;
+    left: 110%;
     background-color: aliceblue;
     text-align: center;
-    
+   
 
 }
 
